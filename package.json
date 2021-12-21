@@ -1,0 +1,28 @@
+{
+  "name": "octoherd-script-rename-labels",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-rename-labels": "./cli.js"
+  },
+  "description": "Rename a multiple labels in a repository using find & replace",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/gr2m/octoherd-script-rename-labels",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.4.5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
